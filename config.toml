@@ -5,7 +5,7 @@ theme = "prologue"
 
 [params]
   name = "Matt Bentley"
-  description = "Sr. Solutions Engineer"
+  description = "Solutions Engineer @ Docker"
   copyright = "mbentley.net"
 
 [[params.social]]
@@ -27,6 +27,11 @@ theme = "prologue"
   medium = "twitter"
   icon = "twitter"
   link = "https://twitter.com/matthewbentley"
+
+[[params.social]]
+  medium = "blog"
+  icon = "rss"
+  link = "https://blog.mbentley.net"
 
 #[[params.social]]
 #  medium = "email"

@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="/css/main.css" />
+                <link rel="stylesheet" href="/css/custom.css" />
 		<!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
 		<!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
 	</head>
@@ -45,9 +46,11 @@
 							-->
 							<ul>
 								<li><a href="#top" id="top-link" class="skel-layers-ignoreHref"><span class="icon fa-home">Intro</span></a></li>
-								<li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li>
+                                                                <!-- <li><a href="#portfolio" id="portfolio-link" class="skel-layers-ignoreHref"><span class="icon fa-th">Portfolio</span></a></li> -->
 								<li><a href="#about" id="about-link" class="skel-layers-ignoreHref"><span class="icon fa-user">About Me</span></a></li>
-								<li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li>
+                                                                <li><a href="#projects" id="projects-link" class="skel-layers-ignoreHref"><span class="icon fa-laptop">Projects</span></a></li>
+								<li><a href="#blog" id="blog-link" class="skel-layers-ignoreHref"><span class="icon fa-rss">Blog</span></a></li>
+                                                                <!-- <li><a href="#contact" id="contact-link" class="skel-layers-ignoreHref"><span class="icon fa-envelope">Contact</span></a></li> -->
 							</ul>
 						</nav>
 
@@ -81,61 +84,8 @@
 							</header>
 
 							<footer>
-								<a href="#portfolio" class="button scrolly">Magna Aliquam</a>
+								<a href="#projects" class="button scrolly">Projects</a>
 							</footer>
-
-						</div>
-					</section>
-
-				<!-- Portfolio -->
-					<section id="portfolio" class="two">
-						<div class="container">
-
-							<header>
-								<h2>Portfolio</h2>
-							</header>
-
-							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
-							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
-							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
-							fusce hendrerit lacus ridiculus.</p>
-
-
-              <div class="row">
-                <div class="4u 12u$(mobile)">
-                  {{ range .Site.Params.portfolio1 }} 
-                  <article class="item">
-                    <a href="{{ .url }}" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
-                    <header>
-                      <h3>{{ .title }}</h3>
-                    </header>
-                  </article>
-                  {{ end }}
-                </div>
-
-                <div class="4u 12u$(mobile)">
-                  {{ range .Site.Params.portfolio2 }} 
-                  <article class="item">
-                    <a href="{{ .url }}" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
-                    <header>
-                      <h3>{{ .title }}</h3>
-                    </header>
-                  </article>
-                  {{ end }}
-                </div>
-
-                <div class="4u 12u$(mobile)">
-                  {{ range .Site.Params.portfolio3 }} 
-                  <article class="item">
-                    <a href="{{ .url }}" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
-                    <header>
-                      <h3>{{ .title }}</h3>
-                    </header>
-                  </article>
-                  {{ end }}
-                </div>
-              </div>
-
 
 						</div>
 					</section>
@@ -160,7 +110,77 @@
 						</div>
 					</section>
 
+				<!-- Projects -->
+					<section id="projects" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Projects</h2>
+							</header>
+
+							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
+							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
+							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
+							fusce hendrerit lacus ridiculus.</p>
+
+<!--
+              <div class="row">
+                <div class="4u 12u$(mobile)">
+                  {{ range .Site.Params.portfolio1 }}
+                  <article class="item">
+                    <a href="{{ .url }}" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
+                    <header>
+                      <h3>{{ .title }}</h3>
+                    </header>
+                  </article>
+                  {{ end }}
+                </div>
+
+                <div class="4u 12u$(mobile)">
+                  {{ range .Site.Params.portfolio2 }}
+                  <article class="item">
+                    <a href="{{ .url }}" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
+                    <header>
+                      <h3>{{ .title }}</h3>
+                    </header>
+                  </article>
+                  {{ end }}
+                </div>
+
+                <div class="4u 12u$(mobile)">
+                  {{ range .Site.Params.portfolio3 }}
+                  <article class="item">
+                    <a href="{{ .url }}" class="image fit"><img src="{{ .source }}" alt="{{ .alt }}" /></a>
+                    <header>
+                      <h3>{{ .title }}</h3>
+                    </header>
+                  </article>
+                  {{ end }}
+                </div>
+              </div>
+-->
+
+						</div>
+					</section>
+
+				<!-- Blog -->
+					<section id="blog" class="two">
+						<div class="container">
+
+							<header>
+								<h2>Blog</h2>
+							</header>
+
+							<p>Vitae natoque dictum etiam semper magnis enim feugiat convallis convallis
+							egestas rhoncus ridiculus in quis risus amet curabitur tempor orci penatibus.
+							Tellus erat mauris ipsum fermentum etiam vivamus eget. Nunc nibh morbi quis
+							fusce hendrerit lacus ridiculus.</p>
+						</div>
+					</section>
+
+
 				<!-- Contact -->
+                                <!--
 					<section id="contact" class="four">
 						<div class="container">
 
@@ -188,6 +208,7 @@
 
 						</div>
 					</section>
+                                        -->
 
 			</div>
 
@@ -196,7 +217,7 @@
 
 				<!-- Copyright -->
 					<ul class="copyright">
-						<li>&copy; {{ .Site.Params.copyright }}</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Powered by <a href="https://gohugo.io/">Hugo</a></li>
+                                          <li>&copy; {{ dateFormat "2006" now }} {{ .Site.Params.copyright }}</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li><li>Powered by <a href="https://gohugo.io/">Hugo</a></li>
 					</ul>
 
 			</div>
