@@ -5,7 +5,7 @@ theme = "prologue"
 
 [params]
   name = "Matt Bentley"
-  description = "Staff SE (Pre-sales) @ Docker"
+  description = "docker run mbentley"
   copyright = "mbentley.net"
 
 [[params.social]]
