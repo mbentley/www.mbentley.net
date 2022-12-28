@@ -1,4 +1,4 @@
-@import url("font-awesome.min.css");
+@import url("fontawesome_all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
 /*
@@ -1958,7 +1958,7 @@
 
 		.icon:before {
 			display: inline-block;
-			font-family: FontAwesome;
+			font-family: "Font Awesome 5 Free";
 			font-size: 1.25em;
 			text-decoration: none;
 			font-style: normal;
@@ -2090,11 +2090,11 @@
 
 				#nav ul li a span:before {
 					position: absolute;
-					left: 0;
+					left: .1em;
 					color: #41484c;
 					text-align: center;
 					width: 1.25em;
-					line-height: 1.75em;
+					line-height: 2.25em;
 				}
 
 			#nav ul li a.active {
@@ -2428,7 +2428,7 @@
 				}
 
 					#headerToggle .toggle:before {
-						font-family: FontAwesome;
+						font-family: "Font Awesome 5 Free";
 						text-decoration: none;
 						font-style: normal;
 						font-weight: normal;

@@ -2,7 +2,7 @@
 @import 'libs/functions';
 @import 'libs/mixins';
 @charset "UTF-8";
-@import url("font-awesome.min.css");
+@import url("fontawesome_all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,300italic,400,600");
 
 /*
@@ -447,7 +447,7 @@
 
 		&:before {
 			display: inline-block;
-			font-family: FontAwesome;
+			font-family: "Font Awesome 5 Free";
 			font-size: 1.25em;
 			text-decoration: none;
 			font-style: normal;
@@ -914,7 +914,7 @@
 					border: 0;
 
 					&:before {
-						font-family: FontAwesome;
+						font-family: "Font Awesome 5 Free";
 						text-decoration: none;
 						font-style: normal;
 						font-weight: normal;

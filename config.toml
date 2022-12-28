@@ -9,26 +9,31 @@ theme = "prologue"
   copyright = "mbentley.net"
 
 [[params.social]]
-  medium = "github"
-  icon = "github"
+  medium = "GitHub"
+  icon = "fab fa-github"
   link = "https://github.com/mbentley"
 
 [[params.social]]
-  medium = "linkedin"
-  icon = "linkedin"
+  medium = "LinkedIn"
+  icon = "fab fa-linkedin"
   link = "https://www.linkedin.com/in/matthewbbentley"
 
 [[params.social]]
-  medium = "facebook"
-  icon = "facebook"
+  medium = "Facebook"
+  icon = "fab fa-facebook"
   link = "http://www.facebook.com/matthew.b.bentley"
 
 [[params.social]]
-  medium = "twitter"
-  icon = "twitter"
+  medium = "Twitter"
+  icon = "fab fa-twitter"
   link = "https://twitter.com/matthewbentley"
 
 [[params.social]]
-  medium = "blog"
-  icon = "rss"
+  medium = "Mastodon"
+  icon = "fab fa-mastodon"
+  link = "https://mas.town/@mbentley"
+
+[[params.social]]
+  medium = "Blog"
+  icon = "fas fa-blog"
   link = "https://blog.mbentley.net"
