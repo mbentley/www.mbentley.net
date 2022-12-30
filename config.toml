@@ -31,7 +31,7 @@ theme = "prologue"
 [[params.social]]
   medium = "Mastodon"
   icon = "fab fa-mastodon"
-  link = "https://mas.town/@mbentley"
+  link = "https://hachyderm.io/@mbentley"
 
 [[params.social]]
   medium = "Blog"
