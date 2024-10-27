@@ -1,0 +1,27 @@
+languageCode: en-us
+title: mbentley.net
+baseurl: https://www.mbentley.net/
+theme: prologue
+params:
+  name: Matt Bentley
+  description: docker run mbentley/me
+  copyright: mbentley.net
+  social:
+    - medium: GitHub
+      icon: fab fa-github
+      link: https://github.com/mbentley
+    - medium: LinkedIn
+      icon: fab fa-linkedin
+      link: https://www.linkedin.com/in/matthewbbentley
+    - medium: Facebook
+      icon: fab fa-facebook
+      link: http://www.facebook.com/matthew.b.bentley
+    - medium: Twitter
+      icon: fab fa-twitter
+      link: https://twitter.com/matthewbentley
+    - medium: Mastodon
+      icon: fab fa-mastodon
+      link: https://hachyderm.io/@mbentley
+    - medium: Blog
+      icon: fas fa-blog
+      link: https://blog.mbentley.net
