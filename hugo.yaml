@@ -16,9 +16,9 @@ params:
     - medium: Facebook
       icon: fab fa-facebook
       link: http://www.facebook.com/matthew.b.bentley
-    - medium: Twitter
-      icon: fab fa-twitter
-      link: https://twitter.com/matthewbentley
+    - medium: Bluesky
+      icon: fab fa-bluesky
+      link: https://bsky.app/profile/mbentley.bsky.social
     - medium: Mastodon
       icon: fab fa-mastodon
       link: https://hachyderm.io/@mbentley
